@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Auth::routes();
 Route::resource('/listings','ListingsController');
+Route::post('/listings/create','ListingsController@store')->name('listings/create');
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');

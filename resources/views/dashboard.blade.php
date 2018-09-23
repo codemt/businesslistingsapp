@@ -34,7 +34,7 @@
                                             <tr>
 
                                                     <td> {{ $listing->name  }} </td>
-                                                    <td></td>
+                                            <td> <a href="{{  url('listings/create') }}"> Edit  </a> </td>
 
                                             </tr>
 
